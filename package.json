@@ -1,0 +1,17 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple expense tracking application",
+  "private": true,
+  "scripts": {
+    "predeploy": "echo 'No predeploy steps required'",
+    "postdeploy": "echo 'Deployment complete'",
+    "build": "node build.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
